@@ -1,0 +1,48 @@
+## INFOMATION
+
+* java.lang.Object
+
+全てのクラスのスーパークラスである。
+
+* argsについて
+
+public class UseSub {
+	public static void main(String[]args) {
+		Sub obj = new Sub();
+	}
+}
+
+
+上記の "args" "obj" はローカル変数なので何でもよい。
+ただし、メインメソッド内で使う変数とかぶってはならない。
+
+*【Super.java】
+
+public class Super {
+	//	コンストラクタを作る場合は下記のようにクラス名を記述する（戻り値の型なし）
+	public Super() {
+		System.out.println("Superコンストラクタ");
+	}
+}
+
+*【Sub.java】
+
+// Superを継承している 
+public class Sub extends Super {
+	public Sub() {
+		System.out.println("Subコンストラクタ");
+	}
+}
+
+* 【UseSub.java】
+
+public class UseSub {
+	public static void main(String[]args) {
+		Sub obj = new Sub();
+	}
+}
+
+* 【実行結果】
+
+Superコンストラクタ
+Subコンストラクタ
