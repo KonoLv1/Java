@@ -1,0 +1,27 @@
+# いろいろまとめ
+
+this.Hello(); と Hello(); は同じ
+
+コンストラクタ
+
+完全修飾クラス名（パッケージ名.クラス名）
+System.out
+
+import java.lang.System;
+
+public class A {
+	public void hello() {
+		System.out.println("hello.");
+	}
+
+}
+
+本来であれば、System（パッケージ名）を利用するには、importしなくてはならないが
+java.langのパッケージ以外は、原則省略不可
+
+
+B b = new B ();
+
+クラスの名前 
+
+new演算子
