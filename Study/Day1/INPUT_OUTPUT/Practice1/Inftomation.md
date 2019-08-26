@@ -49,13 +49,21 @@ import java.util.Scanner;
 public class Practice1 {
 	public static void main(String[] args) {
 		// TODO 自動生成されたメソッド・スタブ
+
+// "空白区切りで3つの数字と１つの文字列を入力してください。"と標準出力している。
+// 改行が不要な場合はSystem.out.printで良い
 		System.out.println("空白区切りで3つの数字と１つの文字列を入力してください。");
+
+// scに入力を受け付ける
 		Scanner sc = new Scanner(System.in);
 
+// a.b.cに数値を入力、sに文字列を入力
 		int a = sc.nextInt();
 		int b = sc.nextInt();
 		int c = sc.nextInt();
 		String s = sc.next();
+
+// a.b.cの合計値と文字列sを標準出力している。
 		System.out.println("数字の合計は" + (a + b + c) + "で入力された文字列は" + s + "です。");
 	}
 }
