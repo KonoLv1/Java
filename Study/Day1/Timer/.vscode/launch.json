@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Timer1",
+            "request": "launch",
+            "mainClass": "codezine.java.Timer1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Sample",
+            "request": "launch",
+            "mainClass": "Sample"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SampleTimer",
+            "request": "launch",
+            "mainClass": "SampleTimer"
+        }
+    ]
+}
