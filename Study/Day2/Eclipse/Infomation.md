@@ -13,13 +13,13 @@ Project Explorerを右クリック > New > Project > Java Project > プロジェクト名の入
 srcフォルダを右クリック > New > Class > パッケージ名とクラス名を入力
 
 ```java
-package test00;
+package test;
 
-public class HelloWorld {
+public class Test {
 
     public static void main(String[] args) {
-        // TODO Auto-generated method stub
-        System.out.println("Hello, world");
+
+        System.out.println("Hello World");
 
     }
 
